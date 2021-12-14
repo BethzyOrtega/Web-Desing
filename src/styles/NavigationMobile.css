@@ -1,0 +1,291 @@
+.section-panel-mobile-block{
+    box-shadow: rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 3px 1px -2px, rgb(0 0 0 / 20%) 0px 1px 5px 0px;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    left: 0px;
+    min-width: 21.5rem;
+    perspective: 1000px;
+    position: fixed;
+    top: 0px;
+    transform-origin: 0% 0%;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1) 0s;
+    transform: translate3d(0px, 0px, 0px);
+    width: 90vw;
+    z-index: 900;
+    
+}
+
+.section-panel-mobile-none{
+display: none;
+}
+
+.dv-header-mobile{
+    display: flex;
+    flex-direction: row;
+}
+
+.dv-icon-title{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+}
+
+.dv-icon-title button{
+    font: 20px / 0 HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+    /* color: rgb(0, 0, 0); */
+    cursor: pointer;
+    display: inline-block;
+    height: 3.5rem;
+    overflow: hidden;
+    padding: 0px 1.5rem;
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    transform: translate3d(0px, 0px, 0px);
+    vertical-align: middle;
+    background-color: transparent;
+    border: 0px;
+    text-decoration: underline;
+    min-width: 0px;
+    width: 3.5rem;
+}
+
+/* .contsainer-title{
+    height: 100%;
+    margin-left: 0.25rem;
+    padding: 0px;
+    width: 6.75rem;
+} */
+
+.contsainer-title a{
+    font: 20px / 20px HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.container-option-mobile{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 2rem 1.5rem;
+
+    
+}
+
+.sub-container-option-mobile{
+    box-sizing: border-box;
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin-left: 0rem;
+    margin-right: 0rem;
+    
+   
+}
+
+.column-container-option-mobile{
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+.all-options-mobile{
+    border: 0px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.all-options-mobile a{
+    cursor: pointer;
+    display: block;
+    line-height: 3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 4%;
+    
+}
+
+.dv-container-acordeon{
+    /* border: 2px solid rgb(248, 248, 248); */
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.dv-container-acordeon button{
+    font: 15px HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 0px;
+    display: flex;
+    margin-left: 4%;
+    min-height: 3rem;
+    /* padding: 0px 2rem; */
+    text-align: left;
+    width: 90%;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+
+.dv-container-acordeon button span{
+    cursor: pointer;
+    display: block;
+    line-height: 3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container-footer-mobile{
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(217, 217, 214);
+    bottom: 0px;
+    box-sizing: border-box;
+    display: flex;
+    height: 7.1875rem;
+    left: 0px;
+    min-width: 21.5rem;
+    padding: 1rem 0px;
+    position: fixed;
+    width: 90vw;
+}
+
+.sub-container-footer-mobile{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.dv-container-button{
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    margin-bottom: 1rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: flex-end;
+}
+
+.dv-container-button button{
+    font: 16px / 24px HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    -webkit-box-align: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: rgb(83, 86, 90);
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    padding: 0px 0.5rem;
+    position: relative;
+}
+
+.dv-container-title{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+
+}
+
+.dv-container-btn-title{
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+}
+
+.dv-container-btn-title button{
+    font: 16px / 1 HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    background-color: rgb(255, 222, 0);
+    border: 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 1.5rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    height: 2.5rem;
+    min-width: auto;
+    /* text-transform: capitalize; */
+    width: 100%;
+}
+
+.container-options{
+    height: auto;
+
+}
+
+.container-options-none{
+
+    height: 0px;
+    overflow: hidden;
+
+}
+
+.container-options2{
+    height: auto;
+
+}
+
+.container-options-none2{
+
+    height: 0px;
+    overflow: hidden;
+
+}
+
+.sub-container-options{
+    border: 0px;
+    
+}
+
+.list-options{
+    border-top: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-options ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.list-options ul li{
+    background: rgb(0, 0, 0);
+    padding: 0.532rem 0px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.list-options ul li a{
+    border: none;
+    font: 16px / 24px HelveticaNeueLTStd-Roman-Normalized, Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    min-height: auto;
+}

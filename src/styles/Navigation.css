@@ -1,0 +1,651 @@
+.abajo{
+
+  position: fixed; /* Make it stick/fixed */
+  width: 100%;
+}
+
+.Nav-Top{
+    font-size: 14px / 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    background: rgb(83, 86, 90);
+    color: white;
+    -webkit-box-pack: end;
+    justify-content: end;
+    height: 48px;
+}
+
+.container-nav{
+    display: flex;
+    max-width: 75rem;
+    padding: 0px 1rem;
+    margin: 0px auto;
+}
+
+.title-nav{
+    font-size: 14px / 2.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 222, 0);
+    margin-right: auto;
+}
+.title-nav a{
+    color: rgb(255, 222, 0);
+    text-decoration: none;
+}
+
+.dvNy{
+    font-size: 14px /12px;
+    font-family: Arial, Helvetica, sans-serif;
+    place-self: center end;
+    padding: 0px 1rem;
+
+
+}
+
+.combobox{
+    align-self: center;
+    display: inline-block;
+    height: 2rem;
+    position: relative;
+}
+
+.btn-NYC {
+    
+    font-size: 14px /16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    -webkit-box-align: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    padding: 0px 0.5rem;
+    position: relative;
+}
+
+.signIn{
+    place-self: center;
+    grid-column: 3 / 4;
+    padding: 0px 0.75rem;
+}
+
+.signIn a {
+    color: white;
+    text-decoration: none;
+} 
+
+.dv-bookabike{
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    grid-area: 1 / 2 / auto / span 2;
+
+}
+
+.prueba{
+    display: block;
+    position: relative;
+}
+
+.btn-listBox{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 1.5rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    transform: translate3d(0px, 0px, 0px);
+    vertical-align: middle;
+    font: 14px / 16px HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    height: 2.5rem;
+    min-width: auto;
+
+}
+
+.btn-listBox:hover{
+    background-color: rgb(186, 186, 186);
+    color: black;
+}
+
+.iconMap{
+    padding-right: 8px;
+}
+
+.iconFlecha{
+    color: white;
+    padding-left: 8px;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(0deg);
+    transition: transform 0.2s ease-in 0s;
+}
+
+.iconFlecha-up{
+    color: white;
+    padding-left: 8px;
+    height: 1rem;
+    width: 1rem;
+    transform: rotate(180deg);
+    transition: transform 0.2s ease-in 0s;
+}
+
+/*******/
+
+.container-soulcycle-option{
+    min-height: 3.5rem;
+    display: flex;
+}
+
+.sec-Logo-Soulcycle{
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 3.5rem;
+    justify-self: start;
+    width: 12.625rem;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.sec-Logo-Soulcycle a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+    /* color: black; */
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+.sec-nav-options{
+    box-sizing: border-box;
+    height: 2.5rem;
+    grid-area: 2 / span 2 / auto / auto;
+    padding: 0.25rem 1rem;
+    margin-left: -0.75rem;
+    white-space: nowrap;
+}
+
+.sec-nav-options nav {
+    box-sizing: border-box;
+}
+
+.ul-all-options {
+    display: flex;
+    list-style: none;
+    height: 3.5rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ul-all-options li{
+    height: 100%;
+    position: relative;
+    margin: 0px 0.75rem;
+}
+
+
+
+.ul-all-options li a{
+    font-size: 16px /24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* color: black; */
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    text-decoration: none;
+}
+
+.ul-all-options li a:hover{
+    /* background-color: rgb(255, 222, 0); */
+    border-bottom:3px solid rgb(255, 222, 0);
+
+}
+
+  
+.containerAll{
+    bottom: 1rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 80px;
+    margin-left: 40px;
+}
+
+.sub-containerAll{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.container-text{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.container-text div{
+    text-align: left;
+    width: 100%;
+}
+
+.container-text div h1{    
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* color: black; */
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.sect-buttons{
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 2.5rem;
+}
+
+.btn-BookABike{
+    font-size: 0,825rem /1;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.25rem 1.5rem 0px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    transform: translate3d(0px, 0px, 0px);
+    vertical-align: middle;
+    border: 1px solid rgb(255, 222, 0);
+    background-color: rgb(255, 222, 0);
+    color: rgb(0, 0, 0);
+    height: 2.5rem;
+    margin-right: 2rem;
+    margin-left: 0px;
+    min-width: 9rem;
+    font-weight: bolder;
+}
+
+.btn-book-a-bike-mobile{
+    display: none;
+}
+
+.btn-SignUp{
+    font-size: 0,825rem /1;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 222, 0);
+    background-color: transparent;
+    color: rgb(255, 222, 0);
+    height: 3rem;
+    min-width: 9rem;
+    padding: 0.25rem 2rem 0px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.section-bg-first-section{
+    background-image: url('../imagenes/Soul-cup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height:100vh; */
+    /* width: 100%; */
+    height: 100vh;
+    background-position: center; 
+    object-fit: cover;
+} 
+
+.list-NYC{
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 0px; */
+    box-shadow: rgb(0 0 0 / 14%) 0px 12px 17px 2px, rgb(0 0 0 / 12%) 0px 5px 22px 4px, rgb(0 0 0 / 20%) 0px 7px 8px -4px;
+    display: flex;
+    flex-flow: column wrap;
+    /* list-style: none; */
+    margin: 0px;
+    max-height: 29rem;
+    padding: 0.25rem 0px 1rem;
+    position: absolute;
+    right: 0px;
+    top: 105%;
+    /* visibility: visible; */
+    width: 41.25rem;
+    z-index: 700;
+    align-items: center;
+    list-style:  none;
+}
+
+.list-NYC-none{
+    display: none;
+}
+
+
+.combobox ul h4{
+    font-size: 20px / 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(83, 86, 90);
+    margin: 0px;
+    padding: 0.5rem 0px 0.5rem 1rem;
+}
+
+
+.combobox ul li  :hover{
+    cursor: pointer;
+    background-color: rgb(255, 222, 0);
+}
+
+.combobox ul li :hover .ul-sub-studio{
+    display: flex;
+ }
+
+
+.combobox ul li button{
+    font-size: 16px / 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    min-width: 13rem;
+    overflow: hidden;
+    padding: 0.5rem 0px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.dv-list-book-a-bike{
+    font-size: 16px / 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 14%) 0px 12px 17px 2px, rgb(0 0 0 / 12%) 0px 5px 22px 4px, rgb(0 0 0 / 20%) 0px 7px 8px -4px;
+    position: absolute;
+    right: 0px;
+    z-index: 600;
+}
+
+.dv-list-book-a-bike-none{
+    display: none;
+}
+
+.dv-list-book-a-bike h4{
+    font-size: 16px / 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 1.25rem 1rem;
+}
+
+.dv-list-book-a-bike ul{
+    border-top: 1px solid rgb(217, 217, 214);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 17.9375rem;
+    list-style: none;
+    margin: 0px 0px 0.625rem;
+    overflow-y: scroll;
+    padding: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.dv-list-book-a-bike ul li{
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.dv-list-book-a-bike ul :hover{
+    background-color: rgb(255, 222, 0);
+    color: black;
+}
+
+.dv-list-book-a-bike ul li a{
+    font-size: 16px / 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    color: rgb(83, 83, 82);
+    text-decoration: none;
+}
+
+.dv-by-classes{
+    padding: 0.5rem 1rem 1rem;
+}
+
+.dv-by-classes a{
+    display: block;
+    text-decoration: none;
+
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 1.5rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    transform: translate3d(0px, 0px, 0px);
+    /* vertical-align: middle; */
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(13, 82, 227);
+    min-width: 0px;
+    font: 14px / 16px HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    color: rgb(13, 82, 227);
+    height: 2.5rem;
+    width: 100%;
+}
+
+.ul-sub-studio{
+    background-color: black;
+    border-radius: 4px;
+    border: 1px solid rgb(237, 237, 237);
+    box-shadow: rgb(0 0 0 / 15%) 1px 1px 4px 1px;
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 3.25rem;
+
+    /* display: flex; */
+    flex-direction: column;
+    z-index: 100;
+}
+
+
+.ul-sub-studio li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px
+}
+
+.ul-sub-studio li a{
+    font-size: 14px / 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 0.75rem 1rem;
+}
+
+.dv-icon-soulcycle{
+    display: flex;
+}
+
+.btn-burger{
+    display: none;
+}
+
+
+
+.iconBurguer{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .container-soulcycle-option {
+        min-height: 3.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 972px) {
+    .section-bg-first-section{
+        background-image: url('../imagenes/Soul-cup-media.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* min-height:100vh; */
+        /* width: 100%; */
+        height: 100vh;
+        background-position: center; 
+        object-fit: cover;
+
+        /* height: 100%; */
+    /* object-fit: cover; */
+    /* width: 100%; */
+    } 
+}
+
+@media (max-width: 767px) {
+    .section-bg-first-section{
+        background-image: url('../imagenes/Soul-cup-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center; 
+        object-fit: cover;
+
+    } 
+
+    .container-text div h1 {
+        font: 32px / 40px HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        font-weight: bolder;
+    }
+
+    .container-text {
+
+        box-sizing: border-box;
+        margin-bottom: 0px;
+
+    }
+
+    .Nav-Top{
+        display: none;
+    }
+
+    .sec-Logo-Soulcycle{
+        align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 3.5rem;
+    /* justify-self: start; */
+    /* width: 12.625rem; */
+    /* margin-right: auto; */
+    margin-left: 30px;
+    justify-content: space-between;
+    width: 92%;
+    }
+
+    .btn-book-a-bike-mobile{
+        display: flex;
+        align-items: center;
+        border: 1px solid rgb(255, 255, 255);
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+    box-sizing: border-box;
+
+    cursor: pointer;
+
+    overflow: hidden;
+    padding: 0px 1.5rem;
+    position: relative;
+    text-align: center;
+   
+    text-transform: capitalize;
+    transform: translate3d(0px, 0px, 0px);
+    vertical-align: middle;
+    font: 14px / 16px HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+    height: 2.5rem;
+    min-width: auto;
+    
+    }
+
+    .btn-burger{
+        font: 16px / 0 HelveticaNeueLTStd-Bd-Normalized, Helvetica, Arial, sans-serif;
+        letter-spacing: 0.5px;
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        display: inline-block;
+        /* height: 3.5rem; */
+        overflow: hidden;
+        /* padding: 0px 1.5rem; */
+        position: relative;
+        text-align: center;
+        text-transform: capitalize;
+        transform: translate3d(0px, 0px, 0px);
+        vertical-align: middle;
+        background-color: transparent;
+        border: 0px;
+        text-decoration: underline;
+        min-width: 0px;
+        /* width: 3.5rem; */
+    }
+
+    .sec-nav-options{
+        display: none;
+    }
+
+
+        
+}
+
+
+
+
+
+
+
+
+
+    
